@@ -8,5 +8,7 @@ export default defineConfig({
       basePath: '/api',
     },
   ],
-});
- 
+  build: {
+    viteOutDir: null
+  }
+} as any);
